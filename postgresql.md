@@ -17,3 +17,7 @@ pg_stat_statements.max = 2048
 **export to csv** 
 
 psql96 -c "copy (select * from pg_stat_statements) to stdout with DELIMITER ',' csv header;" -h hostname -p port -d postgres > sql_query_log.csv
+
+
+**ref**
+https://blog.dbi-services.com/sql-monitoring-in-postgresql-2-pg_stat_statements/
