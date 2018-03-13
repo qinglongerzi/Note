@@ -21,7 +21,7 @@ psql96 -c "copy (select * from pg_stat_statements) to stdout with DELIMITER ',' 
 
 **reset**
 
-=> select pg_stat_reset();
+=> select pg_stat_statements_reset();
 
 
 **ref**
