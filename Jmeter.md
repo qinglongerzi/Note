@@ -6,6 +6,9 @@ http://jmeter.apache.org/
 
 http://jmeter.apache.org/download_jmeter.cgi
 
+- Require
+java 1.8+
+
 - Load test cmd
 
 jmeter -n -t [jmx file] -l [results file] -e -o [Path to output folder]
