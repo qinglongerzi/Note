@@ -11,5 +11,7 @@ https://github.com/certbot/certbot
 - create a new script auto-renew.sh
 
 #!/bin/bash
+
 PATH=/sbin:/bin:/usr/bin
+
 /root/certbot-master/certbot-auto renew --post-hook "service httpd restart" > /dev/null 2>&1
